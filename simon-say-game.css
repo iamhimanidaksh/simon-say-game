@@ -1,0 +1,41 @@
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background-color: rgb(25, 48, 57);
+            color: whitesmoke;
+        }
+        h1,h2,p{
+            text-align: center;
+        }
+        .button{
+            height: 100px;
+            width: 100px;
+            border: 5px solid black;
+            border-radius: 16px;
+        }
+        .first-line,.second-line{
+            display: flex;
+            gap: 10px;
+        }
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .userflash{
+            background-color: pink;
+        }
+        .gameflash{
+            background-color: white;
+        }
